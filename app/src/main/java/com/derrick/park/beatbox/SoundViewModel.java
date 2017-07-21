@@ -5,6 +5,7 @@ package com.derrick.park.beatbox;
  */
 
 public class SoundViewModel {
+    // to chatch change to notify akk==
 
     private Sound mSound;
     private BeatBox mBeatBox;
@@ -28,5 +29,8 @@ public class SoundViewModel {
 
     public BeatBox getBeatBox() {
         return mBeatBox;
+    }
+
+    public void onButtonClicked() {
     }
 }
